@@ -5,7 +5,7 @@ def roll():
 		die = randint(1,6)
 		print die
 		answer = raw_input("Roll again?\n")
-		if answer == "y":
+		if answer == "y": # lazy
 			roll()
 		else:
 			quit()
